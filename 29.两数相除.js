@@ -11,11 +11,11 @@
  * @return {number}
  */
 var divide = function (dividend, divisor) {
-  let result = parseInt(dividend / divisor)
+  let result = parseInt(dividend / divisor);
   if (result >= Math.pow(2, 31) - 1 || result < -Math.pow(2, 31)) {
     return (Math.pow(2, 31) - 1);
   } else {
-    return result
+    return result;
   }
 };
 // @lc code=end
