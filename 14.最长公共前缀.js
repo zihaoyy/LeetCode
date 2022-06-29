@@ -10,7 +10,7 @@
  * @return {string}
  */
 var longestCommonPrefix = function (strs) {
-  let str = ''
+  let str = '';
   if (!strs.length) return str
   for (let i = 0; i < strs[0].length; i++) {
     for (let j = 1; j < strs.length; j++) {
