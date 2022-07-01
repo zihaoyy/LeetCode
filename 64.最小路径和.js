@@ -10,7 +10,8 @@
  * @return {number}
  */
 var minPathSum = function (grid) {
-  let m = grid.length, n = grid[0].length
+  let m = grid.length, 
+      n = grid[0].length
   for (let i = 1; i < m; i++)
     grid[i][0] += grid[i - 1][0]
   for (let j = 1; j < n; j++)
