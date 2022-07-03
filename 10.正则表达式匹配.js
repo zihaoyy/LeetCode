@@ -19,6 +19,6 @@ var isMatch = function (s, p) {
     end = s.substring(index, 1)
   if (str === '.' && start === end || end === str) return true
   if (end !== str || start !== p[0]) return false
-};
+}
 // @lc code=end
 
